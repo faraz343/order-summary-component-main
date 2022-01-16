@@ -1,0 +1,119 @@
+body {
+  background-color: hsl(225, 100%, 98%);
+}
+.main{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-image: url("images/pattern-background-desktop.svg");
+
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  background-color: hsl(225, 100%, 94%);
+  padding-top: 5%;
+  padding-bottom: 4%;
+
+}
+.sub{
+  width: 30%;
+  margin: auto;
+  background-color: White;
+  border:2px;
+  border-radius: 20px 20px 20px 20px;
+}
+.image1{
+  max-width: 100%;
+  border:2px;
+  border-radius: 20px 20px 0 0;
+}
+.inner{
+  height: 100%;
+  width:80%;
+  text-align:center;
+  margin:auto;
+  padding-bottom: 4%;
+  border:2px;
+  border-radius: 20px 20px 0 0;
+}
+.p1{
+  font-size: 20px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.p2{
+  color: hsl(0, 0%, 50%);
+}
+.container{
+  display: flex;
+  position: relative;
+  background-color: hsl(225, 100%, 98%);
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border:2px;
+  border-radius: 10px 10px 10px 10px;
+}
+.image2{
+  float: left;
+  margin-left: 6%;
+}
+.sub-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  position: relative;
+}
+.s1{
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: hsl(223, 47%, 23%);
+}
+.s2{
+position: absolute;
+bottom: 0;
+color: hsl(0, 0%, 50%);
+}
+.s3{
+position: absolute;
+right: 6%;
+color: hsl(223, 47%, 23%);
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 900;
+font-size: 10px;
+margin-top: 7%;
+}
+.confirm{
+  background-color: hsl(245, 75%, 52%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 10px;
+  color:  hsl(225, 100%, 98%);
+  margin-top: 5%;
+  padding:5% 0 5% 0;
+  font-size: 13px;
+  border:2px;
+  border-radius: 10px 10px 10px 10px;
+}
+.cancel{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 11px;
+  color: hsl(0, 0%, 50%);
+  margin-top: 6%;
+}
+.confirm:hover{
+  background-color: hsl(245, 75%, 61%);
+}
+.cancel:hover{
+  color: hsl(0, 0%, 20%);
+}
+.s3:hover{
+  color: hsl(223, 47%, 60%);
+}
+@media only screen and (max-width:500px){
+  .sub{
+    width: 90%;
+  }
+}
